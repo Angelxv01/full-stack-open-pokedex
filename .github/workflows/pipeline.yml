@@ -35,3 +35,4 @@ jobs:
           heroku_email: "angeloxv@outlook.it"
           healthcheck: "https://angelxv-pokedex.herokuapp.com/health"
           checkstring: "ok"
+          rollbackonhealthcheckfailed: true
